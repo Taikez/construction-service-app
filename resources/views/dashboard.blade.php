@@ -16,7 +16,7 @@
                     <p class="mb-5 lh-lg">
                         Selamat datang di <b><i>Suheri's Construction Services</i></b>! Kami adalah mitra <b>terpercaya</b> untuk proyek konstruksi Anda, memberikan layanan <b>berkualitas tinggi</b> yang sesuai dengan kebutuhan dan harapan Anda. Terima kasih atas kepercayaannya!</p>
                     <div class="row">
-                        <a id="contact-btn" class="btn btn-lg text-white fs-6 col-lg-4 col-md-4 col-sm-12" href="https://api.whatsapp.com/send?phone=6285811568097&amp;text=Halo%20Mas%20Suheri%20%2C%20Mohon%20Info%20Pasang%20dan%20Renovasi%20Atap%20Baja%20Ringan">
+                        <a id="contact-btn" class="btn btn-lg text-white fs-6 col-lg-5 col-md-6 col-sm-12" href="https://wa.link/0b9z2e">
                             <div id="contact-btn-text" class="d-flex justify-content-between align-items-center">
                                 HUBUNGI KAMI
                                 <i class="fa-solid fa-phone"></i>
@@ -27,28 +27,72 @@
             </div>
         </div>
     </div>
-    <div id="our-offers" class="pt-5">
-        <h1 class="fw-bold text-center text-white pt-5 pb-5" data-aos="fade" data-aos-duration="3000">Penawaran Kami</h1>
+    <div id="our-offers" class="container-fluid pt-5">
+        <h1 class="fw-bold text-center text-white pt-5 pb-5" data-aos="fade" data-aos-duration="3000">Kenapa Pilih Kami?</h1>
         <div id="offers" class="row d-flex justify-content-center align-items-center p-5 me-5 lh-lg">
-            <div id="offer-container" class="col-lg-3 col-md-12 col-sm-12 text-center px-5 mb-5" data-aos="fade-up-right"
-                data-aos-duration="1500">
-                <i id="offer-icon" class="fa-solid fa-thumbs-up fs-1 mb-5"></i>
-                <h3 class="fw-bold text-white">Kuat Dan Rapih</h3>
-                <p class="d-flex justify-content-center text-white">Layanan konstruksi berkualitas, kuat, dan rapih, sesuai harapan Anda.</p>
+            <div id="offer-container" class="col-lg-3 col-md-12 col-sm-12 text-center px-5 mb-5" >
+                <div data-aos="fade-up-right" data-aos-duration="1500">
+                    <i id="offer-icon" class="fa-solid fa-thumbs-up fs-1 mb-5"></i>
+                    <h3 class="fw-bold text-white">Kuat Dan Rapih</h3>
+                    <p class="d-flex justify-content-center text-white">Layanan konstruksi berkualitas, kuat, dan rapih, sesuai harapan Anda.</p>
+                </div>
             </div>
-            <div id="offer-container" class="col-lg-3 col-md-12 col-sm-12 text-center px-5 mb-5" data-aos="fade-up"
-                data-aos-duration="1500" data-aos-delay="200">
-                <i id="offer-icon" class="fa-solid fa-bolt fs-1 mb-5"></i>
-                <h3 class="fw-bold text-white">Cepat dan Tepat</h3>
-                <p class="d-flex justify-content-center text-white">
-                    Layanan konstruksi yang cepat, tetapi tidak lupa dengan ketepatan.</p>
+            <div id="offer-container" class="col-lg-3 col-md-12 col-sm-12 text-center px-5 mb-5">
+                <div data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200">
+                    <i id="offer-icon" class="fa-solid fa-bolt fs-1 mb-5"></i>
+                    <h3 class="fw-bold text-white">Cepat dan Tepat</h3>
+                    <p class="d-flex justify-content-center text-white">
+                        Layanan konstruksi yang cepat, tetapi tidak lupa dengan ketepatan.</p>
+                </div>
             </div>
-            <div id="offer-container" class="col-lg-3 col-md-12 col-sm-12 text-center px-5 mb-5" data-aos="fade-up-left"
-                data-aos-duration="1500" data-aos-delay="200">
-                <i id="offer-icon" class="fa-solid fa-arrow-right-arrow-left fs-1 mb-5"></i>
-                <h3 class="fw-bold text-white">Fleksibel</h3>
-                <p class="d-flex justify-content-center text-white">
-                    Layanan konstruksi fleksibel, jasa disesuaikan dengan lingkungan yang dihadapi.</p>
+            <div id="offer-container" class="col-lg-3 col-md-12 col-sm-12 text-center px-5 mb-5">
+                <div data-aos="fade-up-left" data-aos-duration="1500" data-aos-delay="200">
+                    <i id="offer-icon" class="fa-solid fa-arrow-right-arrow-left fs-1 mb-5"></i>
+                    <h3 class="fw-bold text-white">Fleksibel</h3>
+                    <p class="d-flex justify-content-center text-white">
+                        Layanan konstruksi fleksibel, jasa disesuaikan dengan lingkungan yang dihadapi.</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div id="testimony-container" class="container-fluid pt-5">
+        <div data-aos="fade-down" data-aos-duration="1000">
+            <i class="fa-solid fa-star-half-stroke d-flex justify-content-center fs-3 mt-3 mb-3" id="star-icon"></i>
+        </div>
+        <h1 class="text-center fw-bold mb-3" data-aos="fade" data-aos-duration="1000" data-aos-delay="800">Testimoni Pelanggan</h1>
+        <div class="row p-4 d-flex justify-content-center">
+            <div id="testimony-card" class="card col-lg-3 col-md-6 col-sm-12 mx-2 p-4 shadow" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                <div class="card-body">
+                    <div class="card-body-text text-center">
+                        <p class="fs-5 text-secondary">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus impedit est eveniet labore, illum odio dignissimos distinctio aspernatur provident, unde, eligendi quae! Distinctio, molestiae. Repellat excepturi cum deleniti a eos."</p>
+                    </div>
+                    <div class="card-body-customer text-center mt-5">
+                        <h4 style="color: #e24e09">John D.</h4>
+                        <h6 class="text-secondary">President</h6>
+                    </div>
+                </div>
+            </div>
+            <div id="testimony-card" class="card col-lg-3 col-md-6 col-sm-12 mx-2 p-4 shadow" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1200">
+                <div class="card-body">
+                    <div class="card-body-text text-center">
+                        <p class="fs-5 text-secondary">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus impedit est eveniet labore, illum odio dignissimos distinctio aspernatur provident, unde, eligendi quae! Distinctio, molestiae. Repellat excepturi cum deleniti a eos."</p>
+                    </div>
+                    <div class="card-body-customer text-center mt-5">
+                        <h4 style="color: #e24e09">John D.</h4>
+                        <h6 class="text-secondary">President</h6>
+                    </div>
+                </div>
+            </div>
+            <div id="testimony-card" class="card col-lg-3 col-md-6 col-sm-12 mx-2 p-4 shadow" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
+                <div class="card-body">
+                    <div class="card-body-text text-center">
+                        <p class="fs-5 text-secondary">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus impedit est eveniet labore, illum odio dignissimos distinctio aspernatur provident, unde, eligendi quae! Distinctio, molestiae. Repellat excepturi cum deleniti a eos."</p>
+                    </div>
+                    <div class="card-body-customer text-center mt-5">
+                        <h4 style="color: #e24e09">John D.</h4>
+                        <h6 class="text-secondary">President</h6>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
