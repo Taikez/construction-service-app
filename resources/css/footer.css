@@ -1,0 +1,38 @@
+#footer-container {
+    background-color: #212529;
+}
+
+.nav-link-secondary {
+    color: #18272F;
+    position: relative;
+    text-decoration: none;
+  }
+  
+.nav-link-secondary::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #6C757D;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.nav-link-secondary:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#social-media-link {
+    transition: all 0.5s ease;
+    color: #e24e09;
+}
+
+#social-media-link:hover {
+    color: #eb9d7b;
+    transform: scale(1.25);
+}

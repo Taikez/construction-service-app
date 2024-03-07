@@ -4,7 +4,11 @@
 
 * {
     font-family: var(--inter);
-    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
 }
 
 #banner {
@@ -44,7 +48,7 @@ hr {
     color: #e24e09;
 }
 
-#testimony-container {
+#testimony-container, #map-container {
     background: url('https://img.freepik.com/free-photo/light-gray-concrete-wall_53876-89532.jpg') no-repeat 0 0 scroll;
     background-color:#0C0C0C;
     background-size: 100% 100%;
@@ -68,10 +72,10 @@ hr {
     z-index: 0;
     overflow: hidden;
     border: 1px solid #f2f8f9;
+    transition: all 0.2s ease-out;
 }
 
 #testimony-card:hover {
-    transition: all 0.2s ease-out;
     box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
     top: -4px;
     border: 1px solid #cccccc;
@@ -95,4 +99,24 @@ hr {
 
 #testimony-card:hover::before {
     transform: scale(2.15);
+}
+
+#consultation-container {
+    background: url('https://images.unsplash.com/photo-1535732759880-bbd5c7265e3f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29uc3RydWN0aW9ufGVufDB8fDB8fHww') no-repeat 0 0 scroll;
+    background-color:#0C0C0C;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    height:100%;
+    width:100%;
+}
+
+#consultation-container-overlay {
+    background-color: rgb(46, 57, 111, 80%);
+}
+
+#line {
+    height: 2px;
+    border-radius: 12px;
+    background-color: #e24e09;
 }
